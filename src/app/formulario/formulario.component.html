@@ -1,0 +1,24 @@
+
+<h1 class="tn">FORMULARIO</h1>
+<hr>
+<form class="form">
+<div class="f">
+    <p>Ingrese sus nombres</p>
+    <input type="text" id="nombre">
+    <input type="text" [(ngModel)]="nombre">
+    <p>Ingrese sus apellidos</p>
+    <input type="text" id="apellido">
+    <input type="text" [(ngModel)]="apellido">
+    <p>Ingrese su correo</p>
+    <input type="email" id="correo">
+    <input type="email" [(ngModel)]="correo">
+    <p>Ingrese su Edad</p>
+    <input type="text" id="contraseña">
+    <input type="text" [(ngModel)]="edad">
+    <br>
+    <p>Ingrese su numero de celular:</p>
+    <input type="text" [(ngModel)]="num">
+    <br><br>
+    <button class="botonenviar" (click)="fma()" >ENVIAR</button>
+
+</div>

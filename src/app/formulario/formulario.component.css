@@ -1,0 +1,36 @@
+#titulo{
+    padding: 50px 100px 50px;
+    text-align: center;
+}
+
+#formu{
+    align-content: center;
+    background-color: rgb(187, 133, 98);
+    max-width: 2000px;
+    max-height: 800px;
+    margin: 10px 150px 10px;
+    border-radius: 15px;
+}
+
+.input{
+    padding: 10px;
+    border-style: none;
+    border: 5px;
+    border-radius: 15px;
+    border-color: black;
+    margin: 1px 450px 1px ;
+    text-align: center;
+    
+}
+
+h3{
+    text-align: center;
+    padding: 15px;
+}
+
+#enviar{
+    scroll-margin-bottom: 5px;
+    margin-bottom: 5x;
+    text-align: center;
+    background-color: rgb(188, 168, 78);
+}
